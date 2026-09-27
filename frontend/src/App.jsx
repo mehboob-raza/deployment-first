@@ -51,7 +51,6 @@ export default function App() {
     setMessage
   ] = useState("");
 
-
   async function loadUsers() {
     try {
       setLoading(true);
@@ -71,9 +70,7 @@ export default function App() {
 
 
   useEffect(() => {
-
     loadUsers();
-
   }, []);
 
 
